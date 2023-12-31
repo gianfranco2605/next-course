@@ -10,8 +10,6 @@ const navItems = [
 ];
 
 export const Navbar = () => {
-  console.log("hello");
-
   return (
     <nav className="flex bg-blue-800 bg-opacity-30 p-2 m-2 rounded">
       <Link href={"/"} className="flex gap-2 items-center">

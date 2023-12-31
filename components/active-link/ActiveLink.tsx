@@ -10,7 +10,7 @@ interface Props {
   text: string;
 }
 
-export const ActiveLink = ({ path, text }): Props => {
+export const ActiveLink = ({ path, text }: Props) => {
   const pathName = usePathname();
 
   return (
